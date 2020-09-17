@@ -4,5 +4,5 @@
   - name: Execute a command using the shell module
     become: true
     become_user: root
-    shell:  helm upgrade test-service /root/minicub/test --set service.type=NodePort
+    shell:  helm upgrade test-service /root/project/ansible/test --set service.type=NodePort
 
