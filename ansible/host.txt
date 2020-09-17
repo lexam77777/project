@@ -1,4 +1,4 @@
 
 [test_linux_server]
 
-doc2 ansible_host=192.168.151.75 ansible_ssh_user=root ansible_ssh_pass=SerVice_sp@r!
+doc2 ansible_host=192.168.151.75 ansible_ssh_user=root ansible_ssh_pass=
