@@ -1,0 +1,8 @@
+---
+- hosts: test_linux_server 
+  tasks:
+  - name: Execute a command using the shell module
+    become: true
+    become_user: root
+    shell:  helm upgrade test-service /root/minicub/test --set service.type=NodePort
+
